@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify({"message": "Hello from my container!", "status": "running"})
+    return jsonify({"message": "Hello from my automated pipeline!", "status": "running"})
 
 @app.route("/health")
 def health():
